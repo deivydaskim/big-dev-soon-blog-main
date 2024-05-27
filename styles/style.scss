@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: Mukta-Regular;
-    src: url(assets/fonts/Mukta/Mukta-Regular.ttf);
+    src: url('/assets/fonts/Mukta/Mukta-Regular.ttf');
 }
 
 @font-face {
     font-family: Playfair;
-    src: url(assets/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf);
+    src: url('/assets/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf');
 }
 
 h1, h2, h3, h4 {
@@ -465,6 +465,7 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         grid-auto-flow: row;
+        margin: 30px 0;
         .card img{ 
             aspect-ratio: 16/9;
             width: 100%;
